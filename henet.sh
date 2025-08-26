@@ -7,8 +7,8 @@
 # - Si HE responde "Sorry, you've already submitted an IPv6...", se pasa a la siguiente prueba sin reintentos
 # - debes tener instalado los programas y dependencias:  apt install -y curl traceroute iputils-ping dnsutils whois html2text coreutils cron
 
-USERNAME="dedicados"
-PASSWORD="pantufla!!"
+USERNAME="myuser"
+PASSWORD="password__used"
 maxTries=5
 DOMAINS_FILE="domains.lst"
 
