@@ -21,10 +21,10 @@ HE.net IPv6 Certification — ejecución única para cron
 # clean.sh  // para eliminar dominios que no tienen ipv6
 
 - Ejemplos de uso
-- Revisar 50 (por defecto), con salida detallada:  ./clean_domains.sh --verbose
-- Revisar 100: ./clean_domains.sh --batch 100
-- Probar SIN modificar nada (ver qué pasaría): ./clean_domains.sh --batch 200 --dry-run --verbose
-- Usar archivos personalizados: ./clean_domains.sh --file /ruta/domains.lst --log /ruta/clean.log --batch 75
+- Revisar 50 (por defecto), con salida detallada:  ./clean.sh --verbose
+- Revisar 100: ./clean.sh --batch 100
+- Probar SIN modificar nada (ver qué pasaría): ./clean.sh --batch 200 --dry-run --verbose
+- Usar archivos personalizados: ./clean.sh --file /ruta/domains.lst --log /ruta/clean.log --batch 75
 
 
 # Como poner el crontab -e
